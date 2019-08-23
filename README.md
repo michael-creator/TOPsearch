@@ -1,27 +1,27 @@
-# TOPsearch
+# delani
+#### 
+This app enables the users to get new quotes and also be able to make their own quote and add them to tha App 18-08-2019
+#### By **michael maina**
+## Description
+This app enables the users to get new quotes and also be able to make their own quote and add them to tha App..
+## Setup/Installation Requirements
+* creat an account with us and subscribe to our channel to get more info.
+* Download the app via the link
+* install the app
+* enter data that is required by the app
+* run the APP
+after installing access the setup for it to configure its settings to your computer,and simply enjoy
+## Known Bugs
+none so far
+## Technologies Used
+HTML,
+CSS,
+BOOTSTRAP,
+ANGULAR CLI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Support and contact details
+for any questions or if any problem arises feel free to contact us @ mikelkarije@gmail.com
+tel 094897864847
+### License
+*MIT*
+Copyright (c) 2019 **MIC
