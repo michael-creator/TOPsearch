@@ -1,12 +1,12 @@
-# delani
+# Topsearch
 #### 
-This app enables the users to get new quotes and also be able to make their own quote and add them to tha App 18-08-2019
+The app mainly helps users to access github repositories by making a search on what they want or the name of the repo they need 23.08.2019
 #### By **michael maina**
 ## Description
-This app enables the users to get new quotes and also be able to make their own quote and add them to tha App..
+
+
 ## Setup/Installation Requirements
-* creat an account with us and subscribe to our channel to get more info.
-* Download the app via the link
+* Download the app via the link in github
 * install the app
 * enter data that is required by the app
 * run the APP
