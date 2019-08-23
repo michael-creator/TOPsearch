@@ -1,14 +1,13 @@
 <div style="text-align:center" id="card2">
-    <h1>
-        Welcome to {{ title }}!
-      </h1>
-      <hr>
+  <h1>
+    Welcome to {{Topsearch }}!
+  </h1>
+  <hr>
   <img width="300" alt="Angular Logo" src="assets/proxy_form.gif">
   <ul>
       <li *ngFor='let topsearch of topsearchs'>
-        {{goal.name}}
+        {{topsearch.name}}
       </li>
   </ul>
+  <p *ngIf='topsearchs.length > 5'>Your topsearchs are too many</p>
 </div>
-
-

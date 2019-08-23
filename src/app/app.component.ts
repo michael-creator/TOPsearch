@@ -6,7 +6,7 @@ import { Topsearch } from './topsearch';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  topsearch:Topsearch [] = [
+  topsearchs:Topsearch [] = [
     {id:1, name:'Watch finding Nemo'},
     {id:2,name:'Buy Cookies'},
     {id:3,name:'Get new Phone Case'},
