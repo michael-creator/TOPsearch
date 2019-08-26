@@ -1,0 +1,11 @@
+<div>
+  <h1>My  TOPsearchs</h1>
+  <hr>
+  <img src="proxy_form.gif" alt="">
+  <ul>
+    <li *ngFor='let topsearch of topsearchs'>
+      {{topsearch.name}}
+      <app-topsearch [topsearch]='topsearch'></app-topsearch>
+    </li>
+  </ul>
+</div>
