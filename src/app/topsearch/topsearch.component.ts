@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Topsearch } from '../topsearch';
 @Component({
   selector: 'app-topsearch',
-  templateUrl: './topsearch .component.html',
+  templateUrl: './topsearch.component.html',
   styleUrls: ['./topsearch.component.css']
 })
 export class TopsearchComponent implements OnInit {
