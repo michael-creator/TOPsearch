@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-navbar',
-  templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  selector: 'app-Topsearch-navbar',
+  templateUrl: './Topsearch-navbar.component.html',
+  styleUrls: ['./Topsearch-navbar.component.css']
 })
-export class NavbarComponent implements OnInit {
+export class TopsearchNavbarComponent implements OnInit {
 
   constructor() { }
 
