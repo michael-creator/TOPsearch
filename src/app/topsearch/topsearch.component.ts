@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Topsearch } from '../topsearch';
 import { TopsearchService } from '../topsearch-service/topsearch.service';
+import { Quote } from '../quote-class/quote';
 
 @Component({
   selector: 'app-topsearch',
@@ -22,5 +23,9 @@ export class TopsearchComponent implements OnInit {
     this.topsearch= topsearchService.getTopsearch()
   }
   ngOnInit() {
+  interface ApiResponse{
+    author:string;
+    quote:string;
+  }
   }
 }

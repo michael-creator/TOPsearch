@@ -7,6 +7,7 @@ import { TopsearchNavbarComponent } from './navbar/navbar.component';
 import { TopsearchComponent } from './topsearch/topsearch.component';
 import { TopsearchDetailComponent } from './topsearch-detail/topsearch-detail.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SearchFormComponent } from './search-form/search-form.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HttpClientModule } from '@angular/common/http';
     TopsearchFormComponent,
     TopsearchNavbarComponent,
     TopsearchComponent,
-    TopsearchDetailComponent
+    TopsearchDetailComponent,
+    SearchFormComponent
   ],
   imports: [
     BrowserModule,
