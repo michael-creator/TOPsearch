@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Topsearch } from '../topsearch';
+import { TopsearchService } from '../topsearch-service/topsearch.service';
+
 @Component({
   selector: 'app-topsearch',
   templateUrl: './topsearch.component.html',
@@ -14,8 +16,11 @@ export class TopsearchComponent implements OnInit {
   new Topsearch(5,'Solve math homework','Damn Math'),
   new Topsearch(6,'Plot my world domination plan','Cause I am an evil overlord',),
 ];
+    topsearch: typeof Topsearch;
 
-  constructor() { }
+ constructor(topsearchService:TopsearchService) {
+    this.topsearch= topsearchService.getTopsearch()
+  }
   ngOnInit() {
   }
 }

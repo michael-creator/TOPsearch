@@ -6,6 +6,7 @@ import { TopsearchFormComponent } from './topsearch-form/topsearch-form.componen
 import { TopsearchNavbarComponent } from './navbar/navbar.component';
 import { TopsearchComponent } from './topsearch/topsearch.component';
 import { TopsearchDetailComponent } from './topsearch-detail/topsearch-detail.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TopsearchDetailComponent } from './topsearch-detail/topsearch-detail.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
